@@ -1,0 +1,22 @@
+{
+  "name": "elm-root-defender",
+  "version": "1.0.0",
+  "description": "Protect the root of your Elm Document or Application from things that mutate HTML body tags",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Elm",
+    "document",
+    "root",
+    "application",
+    "webpack",
+    "virtual-DOM"
+  ],
+  "author": "Ethan B. Martin",
+  "license": "ISC",
+  "peerDependencies": {
+    "webpack": "^4 || ^5"
+  }
+}
