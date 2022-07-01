@@ -4,7 +4,7 @@
   "description": "Protect the root of your Elm Document or Application from things that mutate HTML body tags",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd test; ./run.sh"
   },
   "keywords": [
     "Elm",
