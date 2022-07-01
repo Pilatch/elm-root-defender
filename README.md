@@ -66,3 +66,7 @@ module.exports = {
   target: 'web',
 }
 ```
+
+For even more context, see the source code of our little sample app we use to test this:
+
+https://github.com/Pilatch/elm-root-defender/tree/master/test/sample-project
