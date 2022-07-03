@@ -26,7 +26,7 @@ More complete webpack.config.js for reference:
 
 ```js
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const ElmRootDefender = require('../../index')
+const ElmRootDefender = require('elm-root-defender')
 const path = require('path')
 
 module.exports = {
