@@ -31,6 +31,10 @@ class ElmRootDefender {
     }
 
     replaceBodyWithRootId(sourceCode) {
+        if (typeof sourceCode.replace !== 'function') {
+            return sourceCode
+        }
+
         return sourceCode
             .replace(
                 /var bodyNode = _VirtualDom_doc.body;/gi,
