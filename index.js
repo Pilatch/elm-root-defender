@@ -41,7 +41,7 @@ class ElmRootDefender {
                 `var bodyNode = _VirtualDom_doc.getElementById('${this.elmRootId}');`
             )
             .replace(
-                /var nextNode = _VirtualDom_node\('body'\)\(_List_Nil\)\(doc\.(\w+)\);/gi,
+                /var nextNode = _VirtualDom_node\('body'\)\(_List_Nil\)\(doc\.([\w\$]+)\);/gi,
                 (match, docBodyIdentifier) => `var nextNode = _VirtualDom_node('div')(_List_Nil)(doc.${docBodyIdentifier})`
             )
     }
